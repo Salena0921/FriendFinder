@@ -1,0 +1,16 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "an app to help you find your perfect match",
+  "main": "server.js",
+  "scripts": {
+    "test": "yes",
+    "start": "node server.js"
+  },
+  "author": "Karissa McKendall",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
