@@ -1,17 +1,17 @@
-var friends = require("../data/friends");
+var characters = require("../data/characters");
 
 module.exports = function (app) {
   
-  app.get("/api/friends", function (req, res) {
-    res.json(friends);
+  app.get("/api/characters", function (req, res) {
+    res.json(characters);
   });
 
-  app.post("/api/friends", function (req, res) {
+  app.post("/api/characters", function (req, res) {
 
     var bestMatch = {
       name: "",
       photo: "",
-      friendDifference: Infinity
+      characterDifference: Infinity
     };
 
     var userData = req.body;
@@ -19,27 +19,27 @@ module.exports = function (app) {
 
     var totalDifference;
 
-    for (var i = 0; i < friends.length; i++) {
-      var currentFriend = friends[i];
+    for (var i = 0; i < characters.length; i++) {
+      var currentCharacter = characters[i];
       totalDifference = 0;
 
-      console.log(currentFriend.name);
+      console.log(currentCharacter.name);
 
-      for (var j = 0; j < currentFriend.scores.length; j++) {
-        var currentFriendScore = currentFriend.scores[j];
+      for (var j = 0; j < currentCharacter.scores.length; j++) {
+        var currentCharacterScore = currentCharacter.scores[j];
         var currentUserScore = userScores[j];
 
-        totalDifference += Math.abs(parseInt(currentUserScore) - parseInt(currentFriendScore));
+        totalDifference += Math.abs(parseInt(currentUserScore) - parseInt(currentCharacterScore));
       }
 
-      if (totalDifference <= bestMatch.friendDifference) {
-        bestMatch.name = currentFriend.name;
-        bestMatch.photo = currentFriend.photo;
-        bestMatch.friendDifference = totalDifference;
+      if (totalDifference <= bestMatch.characterDifference) {
+        bestMatch.name = currentCharacter.name;
+        bestMatch.photo = currentCharacter.photo;
+        bestMatch.characterDifference = totalDifference;
       }
     }
 
-    friends.push(userData);
+    characters.push(userData);
 
     res.json(bestMatch);
   });
