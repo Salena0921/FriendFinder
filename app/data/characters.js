@@ -1,4 +1,4 @@
-var characterArray = [
+var characters = [
     {
         characterName:"Meliodas",
         sinName:"Sin of Wrath",
@@ -119,3 +119,5 @@ var characterArray = [
           ]
     }
 ]
+
+module.exports = characters;
