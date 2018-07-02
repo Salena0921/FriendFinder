@@ -9,7 +9,8 @@ module.exports = function (app) {
   app.post("/api/characters", function (req, res) {
 
     var bestMatch = {
-      name: "",
+      characterName: "",
+      sinName: "",
       photo: "",
       characterDifference: Infinity
     };
