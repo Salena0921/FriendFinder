@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
@@ -14,22 +15,28 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron" id="startpage">
-            <h1>Who is your Seven Deadly Counterpart?</h1>
-            <h2>Wrath, Gluttony, Envy...</h2>
-            <h2>Find out what your sin is and find your partner</h2>
-            <p>
-                <a class="btn btn-primary btn-lg submit" href="/survey" role="button">Find my Sin</a>
-            </p>
+        <div class="row">
+                <image src="./assets/images/sevendeadlysins.jpg" alt="Photo credit:https://www.jvfrance.com/images-video-the-seven-deadly-sins-knights-of-britannia-164581/" id="imagelogo"></image>
         </div>
-
-        <footer class="footer">
-            <div class="container">
-                <p>
-                    <a href="/api/characters">API Characters List</a>
+        <div class="row">
+            <div class="jumbotron col-xs-12" id="startpage">
+                <h1 class="row">Who is your Seven Deadly Counterpart?</h1>
+                <h3 class="row">Wrath, Gluttony, Envy...</h3>
+                <h3 class="row">Find out what your sin is and find your partner</h3>
+                <p class="row">
+                    <a class="btn btn-primary btn-lg submit" href="/survey" role="button" id="processbutton">Find my Sin</a>
                 </p>
             </div>
-        </footer>
+        </div>
+        <div class="row">
+            <footer class="footer">
+                <div class="container">
+                    <p>
+                        <a href="/api/characters">API Characters List</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
     </div>
 
     <script src="assets/javascript/frontend.js"></script>
