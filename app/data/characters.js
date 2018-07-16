@@ -4,16 +4,16 @@ var characters = [
         sinName:"Sin of Wrath",
         photo:"./public/assets/images/Meliodas.png",
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "1",
+            "1",
+            "2",
+            "4",
+            "5",
+            "Demonic and Physical",
+            "2",
+            "5",
+            "5",
+            "3"
           ]
     },
     {
@@ -21,16 +21,16 @@ var characters = [
         sinName:"Sin of Envy",
         photo:"./public/assets/images/Diane.png", 
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "2",
+            "5",
+            "1",
+            "2",
+            "5",
+            "Purely Physical",
+            "1",
+            "2",
+            "5",
+            "3"
           ]       
     },
     {
@@ -38,16 +38,16 @@ var characters = [
         sinName:"Sin of Greed",
         photo:"./public/assets/images/Ban.png", 
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "5",
+            "1",
+            "3",
+            "5",
+            "4",
+            "Stealth and Physical",
+            "1",
+            "5",
+            "4",
+            "2"
           ]
     },
     {
@@ -55,16 +55,16 @@ var characters = [
         sinName:"Sin of Sloth",
         photo:"./public/assets/images/King.png",
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "3",
+            "2",
+            "3",
+            "1",
+            "5",
+            "Purely Magical",
+            "2",
+            "5",
+            "5",
+            "1"
           ] 
     },
     {
@@ -72,16 +72,16 @@ var characters = [
         sinName:"Sin of Lust",
         photo:"./public/assets/images/Gowther.jpg", 
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "2",
+            "1",
+            "5",
+            "1",
+            "1",
+            "Purely Magical",
+            "4",
+            "1",
+            "1",
+            "5"
           ]
     },
     {
@@ -89,16 +89,16 @@ var characters = [
         sinName:"Sin of Gluttony",
         photo:"./public/assets/images/Merlin.jpg",
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "2",
+            "1",
+            "5",
+            "3",
+            "1",
+            "Purely Magical",
+            "5",
+            "5",
+            "1",
+            "2"
           ] 
     },
     {
@@ -106,16 +106,16 @@ var characters = [
         sinName:"Sin of Pride",
         photo:"./public/assets/images/Escanor.jpg", 
         scores:[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "1",
+            "2",
+            "4",
+            "1",
+            "1",
+            "Purely Physical",
+            "1",
+            "4",
+            "1",
+            "2"
           ]
     }
 ]
